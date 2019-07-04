@@ -1,188 +1,432 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<meta charset="utf-8">
-<head>
-	<title>Sua Vida, Nosso Planeta | Consumo Responsável</title>
-	<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-	<script src="https://kit.fontawesome.com/0c873d8597.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  
+    <nav class="nav navbar-default" style="background-color: #8e44ad;">
+      <div class="container">
+
+        <div class="navbar-header">
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barra-nav"><i class="fas fa-bars"></i></button>
+          <a href="index.html" class="navbar-brand" style="color: #fff;">MVTransportes</a>
+        </div>
+
+        <div id="barra-nav" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">inicio</a></li>
+            <li><a href="#alugue">alugue um ônibus</a></li>
+            <li><a href="#motorista">motoristas</a></li>
+            <li><a href="#fale">Fale conosco</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
 
-</head>
-<body>
 
-	<nav class="menu">
-		<ul>
-			<div class="logo">
-				<h1>SV<span>NP</span></h1>
-			</div>
-			
-			<input type="checkbox" id="chk">
-				<label for="chk" class="mostrar">
-					<i class="fas fa-bars"></i>
-				</label>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
 
-			<div class="itens">
-				<ul class="its">
-				    <li><a href="index.html">Home</a></li>
-				    <li><a href="#sobre">Quem Somos</a></li>
-				    <li><a href="#objetivo">Objetivos</a></li>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
 
-				<label for="chk" class="tirar">
-					<i class="fas fa-times"></i>
-				</label>
+      <div class="item active">
+        <img src="imagens/slide1.png" alt="Los Angeles" style="width:100%;">
+        <div class="carousel-caption">
+        </div>
+      </div>
 
-				</ul>
-			</div>
+      <div class="item">
+        <img src="imagens/slide2.png" alt="Chicago" style="width:100%;">
+        <div class="carousel-caption">
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="imagens/slide3.png" alt="New York" style="width:100%;">
+      </div>
+  
+    </div>
 
-		</ul>
-	</nav>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 
-	<div class="imagem-fundo">
-			
-		<div class="imagem-cont">
 
-			<div class="texto">
-				<h1>SUA VIDA, <br><span>NOSSO PLANETA</span></h1><br>
-				<span class="slogan">Consumo Responsável</span>
+
+    
+
+    <div class="container">
+      <h1>Viaje conosco</h1><br><br>
+
+      <div class="row">
+      <div class="card col-md-3">
+        <div class="card text-center" style="width: 250px; margin: 0 auto;">
+          <img class="card-img-top" src="imagens/sp.jpg" alt="Destino: São Paulo" width="250px" />
+          <div class="card-body">
+            <h5 class="card-title">Rio de janeiro - São Paulo</h5>
+              <p class="card-text">Ônibus convencional com destino à cidade de São Paulo. Preço sujeito a mudança</p><br>
+              <a href="#" class="btn btn-primary" style="border-radius: 20px;">Comprar: <span style="color: #f1f2f6; font-weight: normal;">R$ 140,00</span></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card col-md-3 ">
+        <div class="card text-center" style="width: 250px; margin: 0 auto;">
+          <img class="card-img-top" src="imagens/bahia.jpg" alt="Destino: Bahia" width="250px">
+          <div class="card-body">
+            <h5 class="card-title">Rio de janeiro - Bahia</h5>
+              <p class="card-text">Ônibus convencional com destino à cidade de Bahia. Preço sujeito a mudança</p><br>
+              <a href="#" class="btn btn-primary" style="border-radius: 20px;">Comprar: <span style="color: #f1f2f6;">R$ 490,00</span></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card col-md-3 ">
+        <div class="card text-center" style="width: 250px; margin: 0 auto;">
+          <img class="card-img-top" src="imagens/mg.jpg" alt="Destino: Minas Gerais" width="250px">
+          <div class="card-body">
+            <h5 class="card-title">Rio de janeiro - Minas Gerais</h5>
+              <p class="card-text">Ônibus convencional com destino à cidade de Minas Gerais. Preço sujeito a mudança</p><br>
+              <a href="#" class="btn btn-primary" style="border-radius: 20px;">Comprar: <span style="color: #f1f2f6;">R$ 200,00</span></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card col-md-3 ">
+        <div class="card text-center" style="width: 250px; margin: 0 auto;">
+          <img class="card-img-top" src="imagens/sc.jpg" alt="Destino: Santa Catarina" width="250px">
+          <div class="card-body">
+            <h5 class="card-title">Rio de janeiro - Santa Catarina</h5>
+              <p class="card-text">Ônibus convencional com destino à cidade de Santa Catarina. Preço sujeito a mudança</p><br>
+              <a href="#" class="btn btn-primary" style="border-radius: 20px;">Comprar: <span style="color: #f1f2f6;">R$ 330,00</span></a>
+          </div>
+        </div>
+      </div>
+
+       <div class="card col-md-3 ">
+        <div class="card text-center" style="width: 250px; margin: 0 auto;">
+          <img class="card-img-top" src="imagens/ar.jpg" alt="Destino: São Paulo" width="250px">
+          <div class="card-body">
+            <h5 class="card-title">Rio de janeiro - Arraial do Cabo</h5>
+              <p class="card-text">Ônibus convencional com destino à cidade de Arraial do Cabo. Preço sujeito a mudança</p><br>
+              <a href="#" class="btn btn-primary" style="border-radius: 20px;">Comprar: <span style="color: #f1f2f6;">R$ 90,00</span></a>
+          </div>
+        </div>
+      </div>
+
+       <div class="card col-md-3 ">
+        <div class="card text-center" style="width: 250px; margin: 0 auto;">
+          <img class="card-img-top" src="imagens/pb.jpg" alt="Destino: São Paulo" width="250px">
+          <div class="card-body">
+            <h5 class="card-title">Rio de janeiro - Paraíba</h5>
+              <p class="card-text">Ônibus convencional com destino à cidade de Paraíba. Preço sujeito a mudança</p><br>
+              <a href="#" class="btn btn-primary" style="border-radius: 20px;">Comprar: <span style="color: #f1f2f6;">R$ 560,00</span></a>
+          </div>
+        </div>
+      </div>
+
+       <div class="card col-md-3 ">
+        <div class="card text-center" style="width: 250px; margin: 0 auto;">
+          <img class="card-img-top" src="imagens/mgs.jpg" alt="Destino: São Paulo" width="250px">
+          <div class="card-body">
+            <h5 class="card-title">Rio de janeiro - Mato Grosso do Sul</h5>
+              <p class="card-text">Ônibus convencional com destino à cidade de Mato Grosso do Sul. Preço sujeito a mudança</p><br>
+              <a href="#" class="btn btn-primary" style="border-radius: 20px;">Comprar: <span style="color: #f1f2f6;">R$ 420,00</span></a>
+          </div>
+        </div>
+      </div>
+
+       <div class="card col-md-3 ">
+        <div class="card text-center" style="width: 250px; margin: 0 auto;">
+          <img class="card-img-top" src="imagens/pr.jpg" alt="Destino: São Paulo" width="250px">
+          <div class="card-body">
+            <h5 class="card-title">Rio de janeiro - Paraná</h5>
+              <p class="card-text">Ônibus convencional com destino à cidade de Santa Catarina. Preço sujeito a mudança</p><br>
+              <a href="#" class="btn btn-primary" style="border-radius: 20px;">Comprar: <span style="color: #f1f2f6;">R$ 210,00</span></a>
+          </div>
+        </div>
+      </div><br>
+
+    </div>
+    </div>
+
+    <div id="alugue"  style="background-color: #8e44ad;">
+        <div class="container">
+          <div class="texto">
+            <h1 style="color: #fff;">Alugue um ônibus</h1>
+            <h3 style="color: #bdc3c7;">Precisa de um ônibus? a MVTransportes aluga um para você!</h3><br>
+            <p style="color: #fff;">Alugue um ônibus de acordo com suas necessidades com o melhor preço e o maior conforto para você e seus passageiros. Aproveite nossas ofertas.</p>
+          </div><br><br><br>
+
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+			  <li class="nav-item">
+			    <a class="nav-link active" id="c-tab" data-toggle="tab" href="#convencional" role="tab" aria-controls="home" aria-selected="true">Convencional</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" id="e-tab" data-toggle="tab" href="#executivo" role="tab" aria-controls="profile" aria-selected="false">Executivo</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" id="f-tab" data-toggle="tab" href="#festa" role="tab" aria-controls="contact" aria-selected="false">Festa</a>
+			  </li>
+			</ul>
+
+			<div class="tab-content" id="myTabContent">
+			  <div class="tab-pane fade show active" id="convencional" role="tabpanel" aria-labelledby="home-tab">
+          <div class="container">
+            <h1>Ônibus convencional</h1>
+
+            <div class="onibus">
+                  <img class="img-responsive" src="imagens/convencional.png" alt="" width="1000px;">
+              </div>
+
+              <div class="lista">
+                <div class="col-md-6">
+                  <ul class="list-group">
+                    <li class="list-group-item active">Conteúdo do pacote</li>
+                    <li class="list-group-item">Bancos 90° <span class="badge"></span></li>
+                    <li class="list-group-item">Banheiros <span class="badge">1</span></li> 
+                    <li class="list-group-item">Ar condicionado <span class="badge">1</span></li> 
+                  </ul>
+                </div>
+
+                <div class="col-md-6">
+                  <ul class="list-group">
+                    <li class="list-group-item active">Conteúdo do pacote</li>
+                    <li class="list-group-item">Repouso para pés<span class="badge">1</span></li>
+                    <li class="list-group-item">Massageador embutido<span class="badge">2</span></li> 
+                    <li class="list-group-item">Som<span class="badge">2</span></li> 
+                  </ul>
+                </div>
+
+              </div>
+          </div>
+			  </div>
+
+			  <div class="tab-pane fade" id="executivo" role="tabpanel" aria-labelledby="profile-tab">
+          <div class="container">
+            <h1>Ônibus executivo</h1>
+
+              <div class="onibus">
+                  <img class="img-responsive" src="imagens/executivo.png" alt="" width="1000px;">
+              </div>
+
+              <div class="lista">
+                <div class="col-md-6">
+                  <ul class="list-group">
+                    <li class="list-group-item active">Conteúdo do pacote</li>
+                    <li class="list-group-item">Garçom <span class="badge">2</span></li>
+                    <li class="list-group-item">Banheiros <span class="badge">2</span></li> 
+                    <li class="list-group-item">Ar condicionado <span class="badge">1</span></li> 
+                  </ul>
+                </div>
+
+                <div class="col-md-6">
+                  <ul class="list-group">
+                    <li class="list-group-item active">Conteúdo do pacote</li>
+                    <li class="list-group-item">Som 5.1 <span class="badge">4</span></li>
+                    <li class="list-group-item">Refrigerador <span class="badge">2</span></li> 
+                    <li class="list-group-item">Frigobar <span class="badge">2</span></li> 
+                  </ul>
+                </div>
+
+              </div>
+          </div>
+			  	
+			  </div>
+
+			  <div class="tab-pane fade" id="festa" role="tabpanel" aria-labelledby="contact-tab">
+			  	<div class="container">
+            <h1>Ônibus para festa</h1>
+
+              <div class="onibus">
+                  <img class="img-responsive" src="imagens/bus1.png" alt="" width="1000px;">
+              </div>
+
+              <div class="lista">
+                <div class="col-md-6">
+                  <ul class="list-group">
+                    <li class="list-group-item active">Conteúdo do pacote</li>
+                    <li class="list-group-item">Garçom <span class="badge">2</span></li>
+                    <li class="list-group-item">Banheiros <span class="badge">2</span></li> 
+                    <li class="list-group-item">Ar condicionado <span class="badge">1</span></li> 
+                  </ul>
+                </div>
+
+                <div class="col-md-6">
+                  <ul class="list-group">
+                    <li class="list-group-item active">Conteúdo do pacote</li>
+                    <li class="list-group-item">Som 5.1 <span class="badge">4</span></li>
+                    <li class="list-group-item">Refrigerador <span class="badge">2</span></li> 
+                    <li class="list-group-item">Frigobar <span class="badge">2</span></li> 
+                  </ul>
+                </div>
+
+              </div>
+          </div>
+			  </div>
 			</div><br>
 
-			<div class="botao">
-				<a href="https://www.instagram.com/svnpetrr/?hl=pt-br">Visite nosso Instagram!</a>
-			</div>
-			
-		</div>
 
-	</div>
+        </div>        
+    </div>
 
-	<div class="cont">
-		<h1>Consumo Responsável</h1><hr><br>
-		
-		<p>Não é de hoje que nos deparamos com notícias sobre os problemas 
-		ambientais presentes em nosso planeta, e se pararmos para analizar, 
-		grande parte desses problemas, são consequências de nosso atos. 
-		Existem diversas maneiras de diminuirmos esses impactos, uma delas é 
-		o Consumo Responsável. O Consumo Responsável é uma ação social 
-		que vem crescendo cada vez mais e tomando conta do cenário de 
-		preservação do meio ambiente. Essa ação funciona com o incentivo do 
-		uso de produtos eticamente corretos, ou seja, produtos que não possuem 
-		nenhum envolvimento de exploração de mão de obra humana e que não 
-		provoquem danos aos animais e o meio ambiente. Além disso, buscar 
-		mudar nossa alimentação para nosso benefício, também é uma forma de 
-		praticar o Consumo Responsável. Como exemplo, podemos citar os 
-		produtos orgânicos. Os produtos orgânicos são produzidos de maneira 
-		planejada, para que não causem nenhum dano tanto ao meio ambiente, 
-		quanto a nossa saúde.</p><br>
+    <div id="motorista">
+      <div class="container">
+        <h1>Conheça nossos motoristas</h1><br>
+          
+          <div class="col-md-6">
 
-		<div class="hed2">
-			<h2>Faça parte !</h2><hr>
-		</div>
+            <div class="card" style="width:400px; margin: auto; text-align: center;">
+              <div class="card-body">
+                <img class="card-img-top img-circle img-responsive" src="imagens/moto1.jpg" alt="Card image" style="width:40%">
+                <h3 class="card-title">Marcio Gomes</h3>
+                <hr style="width: 10%; color: black; height: 4px; background-color:#8854d0; border-radius: 100px;" />
+              
 
-		<div class="col">
-			<div class="col1">
-				<img src="img/col1.png">
-				<p>Reaproveite alimentos;</p><br>
-			</div>
+                <div class="card-text">                  
+                    <p>Marcio é um dos nosso primeiros e mais confiáveis motoristas. Tem 23 anos e já trabalha conosco desde 1993.<br><br>Marcio é querido por nossos clientes e dirige <span>todas</span> as nossas linhas de ônibus!</p>
+                </div><br>
 
-			<div class="col2">
-				<img src="img/col2.png">
-				<p>Doar roupas;	</p><br>
-			</div>
+                <a href="#" class="btn btn-primary" style="margin-right: 10px;">Ligar <i class="fas fa-phone"></i></a>
+                <a href="#" class="btn btn-primary">Mensagem <i class="fas fa-reply"></i></i></a>
+              </div>
+            </div>
+          </div>
 
-			<div class="col3">
-				<img src="img/col3.png">
-				<p>incentive a reciclagem.</p><br>
-			</div>
+          <div class="col-md-6">
+            
+            <div class="card" style="width:400px; margin: auto; text-align: center;">
+              <div class="card-body">
+                 <img class="card-img-top img-circle img-responsive" src="imagens/moto2.jpg" alt="Card image" style="width:40%">
+                <h3 class="card-title">Vitor Martins</h3>
+                <hr style="width: 10%; color: black; height: 4px; background-color:#8854d0; border-radius: 100px;" />
+              
 
-			<div class="col4">
-				<img src="img/col4.png">
-				<p>Separe o lixo.</p><br>
-			</div><br>
+                <div class="card-text">                  
+                    <p>Vitor foi contratado ano passado de uma empresa terceirizada. Tem 30 anos e muita experiência no que faz.<br><br>Vitor é totalmente extrovertido e o ideal para a nossa linha <span>Ônibus Festa</span>.</p>
+                </div><br>
 
-			<div class="col5">
-				<img src="img/col5.png">
-				<p>Evite transgênicos.</p><br>
-			</div>
+                <a href="#" class="btn btn-primary" style="margin-right: 10px;">Ligar <i class="fas fa-phone"></i></a>
+                <a href="#" class="btn btn-primary">Mensagem <i class="fas fa-reply"></i></i></a>
+              </div>
 
-			<div class="col6">
-				<img src="img/col6.png">
-				<p>Evite sacolas plásticas.</p><br>
-			</div>
-		</div>
+            </div>
+          </div>
 
-			<div class="ajude">
-				<h2>Ajude-nos</h2><hr><br>
-				<p>No dia do nosso projeto, estaremos recolhendo tampinhas plásticas que serão enviadas para o projeto Tampinha Legal. Esse projeto tem como o objetivo transformar as tapinhas arrecadadas em recursos para entidades assistenciais.</p><br><br>
+          <div class="col-md-6">
 
-				<h2>Ao todo, já foram recolhidas:</h2>
+            <div class="card" style="width:400px; margin: auto; text-align: center;">
+              <div class="card-body">
+                <img class="card-img-top img-circle img-responsive" src="imagens/moto3.jpg" alt="Card image" style="width:40%">
+                <h3 class="card-title">Danilo Lima</h3>
+                <hr style="width: 10%; color: black; height: 4px; background-color:#8854d0; border-radius: 100px;" />
+              
 
-				<div class="middle">
-					<div class="counting-sec">
-						<div class="inner-width">
-							<div class="coll">
-								<div class="num">119</div>
-								<h3>Milhões</h3>								
-							</div>
+                <div class="card-text">                  
+                    <p>Danilo é um dos nosso motoristas mais competentes. Tem 37 anos, já foi um de nosso clientes e hoje trabalha conosco.<br><br>Danilo é completamente sério e comprometido com o que faz, por isso, dirige nossa <span>linha Executiva</span>.</p>
+                </div><br>
 
-							<div class="coll">
-								<div class="num">646</div>
-								<h3>Milhares</h3>
-							</div>
+                <a href="#" class="btn btn-primary" style="margin-right: 10px;">Ligar <i class="fas fa-phone"></i></a>
+                <a href="#" class="btn btn-primary">Mensagem <i class="fas fa-reply"></i></i></a>
+              </div>
+            </div>
+          </div>
 
-							<div class="coll">
-								<div class="num">302</div>
-								<h3>Dezenas</h3>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div><br>
+          <div class="col-md-6">
+            
+            <div class="card" style="width:400px; margin: auto; text-align: center;">
+              <div class="card-body">
+                 <img class="card-img-top img-circle img-responsive" src="imagens/moto4.jpg" alt="Card image" style="width:40%">
+                <h3 class="card-title">Luiz Fernandes</h3>
+                <hr style="width: 10%; color: black; height: 4px; background-color:#8854d0; border-radius: 100px;" />
+              
 
-		
+                <div class="card-text">                  
+                    <p>Luiz foi contratado recentemente e está em fase de teste em nossa empresa. Tem 32 anos e ama que faz.<br><br>Luiz é otimo no volante e muito cauteloso. Atualmente dirige nossa linha <span>Ônibus Convencional</span>.</p>
+                </div><br>
 
-		<script type="text/javascript">
-			$(".num").counterUp({delay:10,time:1000});
-		</script>
+                <a href="#" class="btn btn-primary" style="margin-right: 10px;">Ligar <i class="fas fa-phone"></i></a>
+                <a href="#" class="btn btn-primary">Mensagem <i class="fas fa-reply"></i></i></a>
+              </div>
+            </div>
+          </div>
 
-		<div id="sobre">
-			<h1>Sobre nós!</h1><hr><br>
-			<p>Nós somos alunos da Escola Técnica Rezende-Rammel, participantes da Mostra Cultural no grupo de Consumo Responsável. Nosso intuito é explicar o que vem a ser o Consumo responsável, trazer suas vantagens e desvantagem, visto que é um tema que já vem ocorrendo a bastante tempo, e mesmo com toda a divulgação e concientização, não causam mudanças na população. </p><br><br>
-
-				<a href="http://www.etrr.com.br/" target="_blank">Saiba mais sobre a ETRR</a><br><br><br>
-		</div><br>
-
-		<div id="objetivo">
-			<h1>Objetivo</h1><br>
-			<p>Nosso principal objetivo é mudar o pensamento da população em relação ao seus atos e concientizar-los de fazer o mundo um lugar melhor para viver. Cada membro da sociedade pode fazer parte do projeto Consumo Responsável, com apenas simples mudanças.</p><br>
-
-			<h2>Doar roupas e acessórios</h2>
-			<p>Faça uma "revisão" em seu armário de três em três meses e separe as peças de roupas, sapatos, acessórios que você não usa ou não cabem mais e doe para quem está necessitando. Existem várias ONGs e instituições que arrecadam roupas, entre elas podemos citar a Campanha do Agasalho e outras instituições que recebem doações durante todo o ano, como igrejas, asilos e orfanatos.</p> <br>
-
-			<h2>Recicle aparelhos eletrônicos</h2><br>
-			<p>Umas das principais duvidas da população quanto a reciclagem, é o que fazer com os aparelhos eletrônicos, já que é uma tarefa bastante complicada reciclar-los. Mas se tomarmos cuidado, acaba sendo uma tarefa mais simples do que imaginamos. Caso seu aparelho ainda funcione e você queira se livrar dele para adiquirir um melhor, junte todos os equipamentos dele, como carregador e fone, no caso do celular, e doe para ONGs e instituições.</p>
-			<p>Caso seus equipamentos não funcione mais, ao invés de jogar todo ele fora, abra-o e separe as peças, muitas das vezes algumas delas ainda podem ser utilizadas. Caso isso não ocorra, separe-as da mesma forma e despeje cada material em seus respectivos lugares para serem reciclados.</p>
-		</div>
+      </div>
 
 
+    </div>
 
-	</div>
-	<div class="fim">
-		<div class="form">
-			<form action="">
-				<h4>Deixe um Feedback!</h4><hr>
-				<input type="text" name="nome" placeholder="Informe seu nome" class="it"><br>
-				<input type="email" name="email" placeholder="Informe seu email" class="it"><br>
-				<textarea class="it" cols="20" rows="5" placeholder="Digite seu mensagem!"></textarea><br>
-				<input type="submit" value="enviar" class="btn"><br>
-			</form>
-		</div><br><br>
-		<p>Design realizado por Mateus Lopes &copy; 2019 | todos os direitos reservados. </p>
-	</div>
+    <footer id="fale">
+      <div class="container">
 
-</body>
+        <form>
+          <div class="form-row">
+
+            <div class="col-md-6">
+              <h3>Fale conosco</h3>
+
+              <input type="text" class="form-control" placeholder="Nome">
+              <input type="email" class="form-control" placeholder="Email">
+              <textarea class="form-control" placeholder="Digite sua mensagem" rows="3"></textarea><br>
+
+              <button type="button" class="btn btn-primary">Enviar</button>
+
+            </div>
+
+            <div class="col-md-6">
+              <h3>Trabalhe conosco</h3>
+
+              <input type="text" class="form-control" placeholder="Nome Completo">
+              <input type="tel" class="form-control" placeholder="DDD+Telefone">
+              <input type="cpf" class="form-control" placeholder="CPF">
+              <input type="email" class="form-control" placeholder="Email">
+              <input type="text" class="form-control" placeholder="Informe sua Experiência">
+
+              <button type="button" class="btn btn-primary">Enviar</button><br>
+
+            </div>
+
+
+          </div>
+
+        </form><br>
+
+        <p style="text-align: center; margin: 10px auto;">Designer feito por Mateus lopes | Todos os direitos reservados &copy; </p>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
 </html>
