@@ -1,0 +1,92 @@
+html{
+   scroll-behavior: smooth;
+}
+
+body{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.top i{
+    position: absolute;
+    color: white;
+    font-size: 70px;
+    left: 50%;
+    top: 85%;
+}
+
+.top a{
+    scroll-behavior: smooth;
+}
+
+.top i:hover{
+    position: absolute;
+    left: 50%;
+    top: 83%;
+    transition: 0.5s;
+    font-size: 80px;
+}
+
+#extincao{
+    text-align: justify;
+    
+}
+
+.cards{
+    position: relative;
+    align-content: center;
+    align-items: center;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    padding:30px 0 ;
+}
+
+footer p{
+    text-align: center;
+}
+
+.icons ul{
+    list-style: none;
+}
+
+.icons li{
+    font-size: 1rem;
+}
+
+.icons i{
+    color: white;
+    padding:10px 10px;
+    margin: 10px 10px;
+    font-size: 1.3rem;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.icons i:hover{
+    background-color: #2d3436;
+    transition: 0.3s;
+}
+
+
+
+@media screen and (min-width: 576px) { 
+    
+ }
+
+
+@media screen and (min-width: 768px) { 
+   
+ }
+
+
+@media screen and (min-width: 992px) { 
+
+ }
+
+
+@media screen and (min-width: 1200px) { 
+    
+ }
