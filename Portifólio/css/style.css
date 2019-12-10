@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css?family=Sulphur+Point:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sulphur+Point:700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #121212;
+}
+
+/*--------- MENU ---------*/
+
+nav.menu{
+    font-family: 'Montserrat', sans-serif;
+    height: 80px;
+    width: 100%;
+    background: #1f1f1f;
+}
+
+label.logo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #e2e2e2;
+    padding: 0 100px;
+    line-height: 80px;
+}
+
+nav.menu ul{
+    float: right;
+    margin-right: 40px;
+}
+
+nav.menu li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+nav.menu a{
+    text-decoration: none;
+    color: #e2e2e2;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 7px 10px;
+      
+}
+
+nav.menu a.active{
+    color: #bb8cfc;
+}
+
+nav.menu a:hover{
+    color: #bb8cfc;
+    transition: .5s;
+}
+
+nav.menu #icon{
+    color: #e2e2e2;
+    font-size: 25px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+nav.menu #icon:hover{
+    color: #bb8cfc;
+    transition: .5s;
+}
+
+nav.menu #icon2{
+    display: none;
+    color: #e2e2e2;
+    font-size: 25px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;    
+}
+
+nav.menu #icon2:hover{
+    color: #bb8cfc;
+    transition: .5s;
+}
+
+/* --------- FIM MENU ---------*/
+
+@media (max-width: 1048px){
+    label.logo{
+        font-size: 27px;
+        padding-left: 60px;
+    }
+
+    nav.menu ul{
+        margin-right: 20px;
+    }
+
+    nav.menu a{
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 909px){
+    nav .menu{
+        height: 100vh;
+        position: fixed;
+    }
+
+    nav.menu #icon{
+        display: block;
+    }
+
+    nav.menu ul{
+        background: #272727;
+        height: 100vh;
+        left: -100%;
+        position: fixed;
+        top: 80px;
+        transition: all .5s;
+        text-align: center;
+        width: 100%;
+    }
+
+    nav.menu li{
+        display: block !important;
+        line-height: 30px;
+        margin: 50px 0;
+    }
+
+    nav.menu a{
+        font-size: 20x;
+    }
+    nav.menu a.active{
+        color: #bb8cfc;
+    }
+
+    nav.menu a:hover{
+        color: #bb8cfc;
+    }
+
+    nav.menu ul.show{
+        left: 0;
+    }
+
+}
+
+/* --------- TOP BUTTON ---------*/
+.uper{
+    background-color: #00aeff;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    left: 90%;
+    position: fixed;
+    top: 87%;
+    transition: .3s;
+}
+
+.uper i{
+    color: #e1e1e1;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.upper:hover{
+    background-color: #059adf;
+    left: 89%;
+    top: 86%;
+}
+
+/* --------- FIM TOP BUTTON ---------*/
+
+@media (max-width: 909px){
+    .uper{
+        left: 87%;
+    }
+
+    .uper i{
+        color: #e1e1e1;
+        font-size: 18px;
+        padding: 20px;
+    }
+
+    .uper:hover{
+        background: #059adf;
+    }
+}
+
+
+
+
+
+
+
+
+/* --------- HEADER ---------*/
+
+#inicio{
+    background-image: url('../img/Logo.png');
+    background-origin: padding-box;
+    background-position: 90% 50%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    border: 1px solid #121212;
+    height: 600px; 
+}
+
+#inicio h1{
+    color: #e2e2e2;
+}
+
+#inicio .texto-left{
+    margin: 10% 5%;
+    padding: 0 50px;
+}
+
+#inicio .texto-left {
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 28px;
+    font-weight: lighter;
+}
+
+#inicio .introducao{
+    font-size: 70px;
+}
+
+#inicio .titulo-destaque{
+    color: #c38fff;
+    font-weight: bold;
+}
+
+#inicio h4{
+    color: #e1e1e1;
+    font-family: 'Sulphur Point', sans-serif;
+    font-weight: 400;
+    margin: -8% 9%;
+}
+
+#inicio .desc a{
+    background-color: #b476fa;
+    border-radius: 40px;
+    color: #e2e2e2;
+    display: block;
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 9%;
+    margin-top: 12%;
+    padding: 15px 32px;
+    position: absolute;
+    transition: .5s;
+    text-decoration: none;
+    z-index: 10;
+}
+
+#inicio .desc a:hover{
+    background-color: #9a57e7; 
+}
+
+/* --------- FIM HEADER ---------*/
+
+
+/* --------- SOBRE MIM ---------*/
+
+#sobre{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 15% 5% 15%;
+}
+
+#sobre h1{
+    color: #e1e1e1;
+    text-align: center;
+}
+
+#sobre h1::after{
+    content: "";
+    border: 2px solid #bb8cfc;
+    display: block;
+    left: 45%;
+    margin-top: 10px;
+    position: relative;
+    width: 90px;
+}
+
+#sobre p{
+    color: #e1e1e1;
+    font-size: 1em;
+    line-height: 1.7em;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+#sobre span.destaque{
+    color: #bb8cfc;
+    font-weight: 700;
+}
+
+/* --------- FIM SOBRE MIM ---------*/
+
+@media (max-width: 909px){
+    #sobre{
+        margin: 0 13%;
+    }
+}
+
+/*--------- SERVIÇOES ---------*/
+
+#servico h1{
+    color: #e1e1e1;
+    text-align: center;
+}
+
+#servico h1::after{
+    content: "";
+    border: 2px solid #bb8cfc;
+    display: block;
+    left: 47%;
+    margin-top: 10px;
+    position: relative;
+    width: 85px
+}
+
+.box-servico{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-clip: border-box;
+}
+
+.single-box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+    background-color: #1d1d1d;
+    background-size: auto;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.box-text{
+    font-family: 'Montserrat', sans-serif;
+    color: #e2e2e2;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+
+.header-text{
+    height: 100px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.box-desc{
+    display: block;
+}
+
+.box-desc ul{
+    list-style: none;
+}
+
+.box-desc li{
+    list-style: none;
+    padding: 10px 0;
+}
+/*
+.box-desc li::after{
+    content: "";
+    position: relative;
+    border: 1px solid #383838;
+    display: block;
+    width: 100%;
+    align-items: center;
+}
+*/
+.box-text .contact{
+    position: relative;
+    background-color: #b476fa;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 40px;
+}
+
+.box-text .contact a{
+    color: #e2e2e2;
+}
+
+
+.box-text .contact .button{
+    display: block;
+}
+
+.box-text .email{
+    background-color: #b476fa;
+    border-radius: 40px;
+    cursor: pointer;
+    display: none;
+    position: relative;
+    padding: 15px;
+}
+
+.box-text .email a{
+    color: #e2e2e2;
+}
+
+.box-text .contact1{
+    position: relative;
+    background-color: #b476fa;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 40px;
+}
+
+.box-text .email1{
+    background-color: #b476fa;
+    border-radius: 40px;
+    cursor: pointer;
+    display: none;
+    position: relative;
+    padding: 15px;
+}
+
+@media (max-width: 909px){
+    .single-box{
+        width: 350px;
+    }
+}
+
+
+
+/*--------- FIM SERVIÇOES ---------*/
+
+@media (max-width: 909px){
+    .single-box{
+        z-index: ;
+    }
+
+    .contact{
+        z-index: 1;
+        cursor: pointer;
+    }
+}
+
+/*--------- FOOTER ---------*/
+
+footer{
+    background-color: #1f1f1f;
+    height: 200px;
+    width: 100%;
+}
+
+footer ul{
+    line-height: 200px;
+    text-align: center;
+}
+
+footer ul li{
+    color: #e1e1e1;
+}
+
+footer ul li a{
+    border: 2px solid #c38fff;
+    border-radius: 50%;
+    color: #c38fff;
+    font-size: 1.2em;
+    margin: 5px;
+    padding: 5px 8px;
+    position: relative;
+    transition: .5s ease;
+}
+
+footer ul li a:hover{
+    background-color: #c38fff;
+    color: #e1e1e1;
+}
+
+footer img{
+    margin-top: -10%;
+    position: relative;
+}
+
+/*--------- FIM FOOTER ---------*/
