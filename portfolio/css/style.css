@@ -186,8 +186,8 @@ nav.menu #icon2:hover{
 
     .uper i{
         color: #e1e1e1;
-        font-size: 18px;
-        padding: 20px;
+        font-size: 12px;
+        padding: 15px;
     }
 
     .uper:hover{
@@ -448,7 +448,7 @@ nav.menu #icon2:hover{
 
 @media (max-width: 909px){
     .single-box{
-        z-index: ;
+        z-index: 1;
     }
 
     .contact{
