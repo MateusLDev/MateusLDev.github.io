@@ -179,7 +179,7 @@ nav.menu #icon2:hover{
 
 /* --------- FIM TOP BUTTON ---------*/
 
-@media (max-width: 909px){
+@media (max-width: 767){
     .uper{
         left: 87%;
     }
