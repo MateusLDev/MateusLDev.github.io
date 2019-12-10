@@ -306,7 +306,7 @@ nav.menu #icon2:hover{
 
 /* --------- FIM SOBRE MIM ---------*/
 
-@media (min-width: 768){
+@media (max-width: 767){
     #sobre{
         margin: 0 13%;
     }
@@ -436,7 +436,7 @@ nav.menu #icon2:hover{
     padding: 15px;
 }
 
-@media (min-width: 768){
+@media (max-width: 767){
     .single-box{
         width: 500px;
     }
@@ -446,7 +446,7 @@ nav.menu #icon2:hover{
 
 /*--------- FIM SERVIÇOES ---------*/
 
-@media (min-width: 768){
+@media (max-width: 767){
     .single-box{
         z-index: 1;
     }
