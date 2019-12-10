@@ -448,7 +448,7 @@ nav.menu #icon2:hover{
 
 @media (max-width: 767){
     .single-box{
-        z-index: 1;
+        z-index: -1;
     }
 
     .contact{
