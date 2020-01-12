@@ -1,0 +1,43 @@
+@media only screen and (max-width: 600px){
+    #projetos{
+        margin: 0 8.7%;
+    }  
+
+    .project-image img{
+        margin-top: 200px;
+        width: 400px !important;
+        box-shadow: 3px 8px 39px 8px rgba(0,0,0,0.73);
+        -webkit-box-shadow: 3px 8px 39px 8px rgba(0,0,0,0.73);
+        -moz-box-shadow: 3px 8px 39px 8px rgba(0,0,0,0.73);
+    }
+
+    .project-desc{
+        display: inline-block;
+        margin-top: 20px;
+        position: absolute;
+        text-align: justify;
+        top: 100%;
+    }
+
+        .project-desc p{
+            margin: 0 0 0 -50px;
+            position: relative;
+        }
+
+        .project-desc p.left{
+            margin: 0 auto;
+            position: relative;
+            width: 100%;
+        }
+
+        .project-buttons{
+            left: 0;
+            margin: 15px 9.5%;
+            position: absolute;
+            width: 100%;
+        }
+
+        .project-buttons a{
+            margin: 25px;
+        }
+}
