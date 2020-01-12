@@ -4,7 +4,7 @@
     }  
 
     .project-image img{
-        margin-top: 200px;
+        margin-top: 20%;
         width: 400px !important;
         box-shadow: 3px 8px 39px 8px rgba(0,0,0,0.73);
         -webkit-box-shadow: 3px 8px 39px 8px rgba(0,0,0,0.73);
@@ -37,7 +37,5 @@
             width: 100%;
         }
 
-        .project-buttons a{
-            margin: 25px;
-        }
+        
 }
