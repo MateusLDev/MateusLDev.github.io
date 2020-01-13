@@ -48,7 +48,7 @@
     }  
 
     .project-image img{
-        
+        width: 100px;
         box-shadow: 3px 8px 39px 8px rgba(0,0,0,0.73);
         -webkit-box-shadow: 3px 8px 39px 8px rgba(0,0,0,0.73);
         -moz-box-shadow: 3px 8px 39px 8px rgba(0,0,0,0.73);
