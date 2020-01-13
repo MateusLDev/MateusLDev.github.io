@@ -281,7 +281,7 @@ nav.menu{
     }  
     
         .project-image img{
-            width: 490px !important;
+            width: 100%;
             box-shadow: 3px 8px 39px 8px rgba(0,0,0,0.73);
             -webkit-box-shadow: 3px 8px 39px 8px rgba(0,0,0,0.73);
             -moz-box-shadow: 3px 8px 39px 8px rgba(0,0,0,0.73);
