@@ -53,4 +53,8 @@
         -webkit-box-shadow: 3px 8px 39px 8px rgba(0,0,0,0.73);
         -moz-box-shadow: 3px 8px 39px 8px rgba(0,0,0,0.73);
     }
+
+    #project-desc p{
+        padding: 20px 0 15px 40px;
+    }
 }
