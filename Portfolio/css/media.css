@@ -5,7 +5,7 @@
 
     .project-image img{
         margin-top: 200px;
-        width: 40%;
+        
         box-shadow: 3px 8px 39px 8px rgba(0,0,0,0.73);
         -webkit-box-shadow: 3px 8px 39px 8px rgba(0,0,0,0.73);
         -moz-box-shadow: 3px 8px 39px 8px rgba(0,0,0,0.73);
@@ -45,12 +45,12 @@
 
 @media only screen and (max-width: 480px){
     #projetos{
-        margin: 0;
+        margin: 0 15%;
     }  
 
     .project-image img{
         margin-top: 100px;
-        width: 30%;
+        
         box-shadow: 3px 8px 39px 8px rgba(0,0,0,0.73);
         -webkit-box-shadow: 3px 8px 39px 8px rgba(0,0,0,0.73);
         -moz-box-shadow: 3px 8px 39px 8px rgba(0,0,0,0.73);
