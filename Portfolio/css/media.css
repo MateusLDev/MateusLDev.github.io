@@ -44,7 +44,7 @@
 
 @media only screen and (max-width: 480px){
     #projetos{
-        margin: 0;
+        margin: 0 15%;
     }  
 
     .project-image img{
